@@ -1,0 +1,12 @@
+*.txt text eol=crlf
+*.htm text eol=crlf
+*.html text eol=crlf
+*.2da text eol=crlf
+
+*.bmp binary
+*.bam binary
+*.gif binary
+*.exe binary
+*.ico binary
+*.jpg binary
+*.png binary

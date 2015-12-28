@@ -1,0 +1,528 @@
+0x0000 FIRE_RING                  
+0x0100 CHUNKS                  
+0x0200 EXPLODING_ARM                  
+0x0210 EXPLODING_HEAD                  
+0x0220 EXPLODING_FOOT                  
+0x0230 EXPLODING_TORSO                  
+0x0240 EXPLODING_LEG                  
+0x0300 SMOKE_PUFF_LARGE                  
+0x0301 SMOKE_PUFF_SMALL                  
+0x0400 TRAP_SKULL                  
+0x0410 TRAP_GLYPH                  
+0x0500 CLOUD_TRAVEL                  
+0x0510 CLOUD_STATIC                  
+0x0600 STORM_TRAVEL                  
+0x0610 STORM_STATIC                  
+0x0700 GREASE_TRAVEL                  
+0x0710 GREASE_STATIC                  
+0x0800 WEB_TRAVEL                  
+0x0810 WEB_STATIC                  
+0x1000 WYVERN_BIG MWYV                 
+0x1100 TANARRI MTAN                 
+0x1200 DRAGON_RED MDR crash fix               
+0x1201 DRAGON_BLACK MDR crash fix               
+0x1202 DRAGON_SILVER MDR crash fix               
+0x1203 DRAGON_GREEN MDR                 
+0x1204 DRAGON_AQUA MDR                 
+0x1205 DRAGON_BLUE MDR                 
+0x1206 DRAGON_BROWN MDR                 
+0x1207 DRAGON_MULTICOLOR MDR                 
+0x1208 DRAGON_PURPLE MDR                 
+0x1300 DEMIGORGON MDEM                 
+0x2000 SIRINE MSIR                 
+0x2100 VOLO UVOL                 
+0x2200 OGRE_MAGE MOGM                 
+0x2300 DEATH_KNIGHT MDKN                 
+0x3000 ANKHEG MAKH                 
+0x4000 STATIC_NOBLE_MAN_CHAIR SNOMC                 
+0x4002 STATIC_NOBLE_MAN_MATTE SNOMM                 
+0x4010 STATIC_NOBLE_WOMAN_CHAIR SNOWC                 
+0x4012 STATIC_NOBLE_WOMAN_MATTE SNOWM                 
+0x4100 STATIC_PEASANT_MAN_CHAIR SSIMC                 
+0x4101 STATIC_PEASANT_MAN_STOOL SSIMS                 
+0x4102 STATIC_PEASANT_MAN_MATTE SSIMM                 
+0x4110 STATIC_PEASANT_WOMAN_CHAIR SSIWC                 
+0x4112 STATIC_PEASANT_WOMAN_MATTE SSIWM                 
+0x4200 STATIC_HUMANCLERIC_MAN_CHAIR SHMCM                 
+0x4300 STATIC_SPIDER_WOMAN MSPL                 
+0x4400 SLEEPING_MAN_HUMAN LHMC                 
+0x4410 SLEEPING_WOMAN_HUMAN LHFC                 
+0x4500 SLEEPING_FAT_MAN_HUMAN LFAM                 
+0x4600 SLEEPING_DWARF LDMF                 
+0x4700 SLEEPING_MAN_ELF LEMF                 
+0x4710 SLEEPING_WOMAN_ELF LEFF                 
+0x4800 SLEEPING_MAN_HALFLING LIMC                 
+0x5000 CLERIC_MALE_HUMAN_LOW CHMB                 
+0x5001 CLERIC_MALE_ELF_LOW CEMB                 
+0x5002 CLERIC_MALE_DWARF_LOW CDMB                 
+0x5003 CLERIC_MALE_HALFLING_LOW CIMB                 
+0x5010 CLERIC_FEMALE_HUMAN_LOW CHFB                 
+0x5011 CLERIC_FEMALE_ELF_LOW CEFB                 
+0x5012 CLERIC_FEMALE_DWARF_LOW CDFB                 
+0x5013 CLERIC_FEMALE_HALFLING_LOW CIFB                 
+0x5100 FIGHTER_MALE_HUMAN_LOW CHMB                 
+0x5101 FIGHTER_MALE_ELF_LOW CEMB                 
+0x5102 FIGHTER_MALE_DWARF_LOW CDMB                 
+0x5103 FIGHTER_MALE_HALFLING_LOW CIMB                 
+0x5110 FIGHTER_FEMALE_HUMAN_LOW CHFB                 
+0x5111 FIGHTER_FEMALE_ELF_LOW CEFB                 
+0x5112 FIGHTER_FEMALE_DWARF_LOW CDFB                 
+0x5113 FIGHTER_FEMALE_HALFLING_LOW CIFB                 
+0x5200 MAGE_MALE_HUMAN_LOW CHMW                 
+0x5201 MAGE_MALE_ELF_LOW CEMW                 
+0x5202 MAGE_MALE_DWARF_LOW CDMW                 
+0x5210 MAGE_FEMALE_HUMAN_LOW CHFW                 
+0x5211 MAGE_FEMALE_ELF_LOW CEFW                 
+0x5212 MAGE_FEMALE_DWARF_LOW CDFW                 
+0x5300 THIEF_MALE_HUMAN_LOW CHMT                 
+0x5301 THIEF_MALE_ELF_LOW CEMT                 
+0x5302 THIEF_MALE_DWARF_LOW CDMT                 
+0x5303 THIEF_MALE_HALFLING_LOW CIMT                 
+0x5310 THIEF_FEMALE_HUMAN_LOW CHFT                 
+0x5311 THIEF_FEMALE_ELF_LOW CEFT                 
+0x5312 THIEF_FEMALE_DWARF_LOW CDFT                 
+0x5313 THIEF_FEMALE_HALFLING_LOW CIFT                 
+0x6000 CLERIC_MALE_HUMAN CHMB                 
+0x6001 CLERIC_MALE_ELF CEMB                 
+0x6002 CLERIC_MALE_DWARF CDMB                 
+0x6003 CLERIC_MALE_HALFLING CIMB                 
+0x6004 CLERIC_MALE_GNOME CDMB                 
+0x6005 CLERIC_MALE_HALFORC CHMB                 
+0x6010 CLERIC_FEMALE_HUMAN CHFB                 
+0x6011 CLERIC_FEMALE_ELF CEFB                 
+0x6012 CLERIC_FEMALE_DWARF CDFB                 
+0x6013 CLERIC_FEMALE_HALFLING CIFB                 
+0x6014 CLERIC_FEMALE_GNOME CDFB                 
+0x6015 CLERIC_FEMALE_HALFORC CHFB                 
+0x6100 FIGHTER_MALE_HUMAN CHMB                 
+0x6101 FIGHTER_MALE_ELF CEMB                 
+0x6102 FIGHTER_MALE_DWARF CDMB                 
+0x6103 FIGHTER_MALE_HALFLING CIMB                 
+0x6104 FIGHTER_MALE_GNOME CDMB                 
+0x6105 FIGHTER_MALE_HALFORC CHMB                 
+0x6110 FIGHTER_FEMALE_HUMAN CHFB                 
+0x6111 FIGHTER_FEMALE_ELF CEFB                 
+0x6112 FIGHTER_FEMALE_DWARF CDFB                 
+0x6113 FIGHTER_FEMALE_HALFLING CIFB                 
+0x6114 FIGHTER_FEMALE_GNOME CDFB                 
+0x6115 FIGHTER_FEMALE_HALFORC CHFB                 
+0x6200 MAGE_MALE_HUMAN CHMW                 
+0x6201 MAGE_MALE_ELF CEMW                 
+0x6202 MAGE_MALE_DWARF CDMW                 
+0x6204 MAGE_MALE_GNOME CDMW                 
+0x6205 MAGE_MALE_HALFORC CHMW                 
+0x6210 MAGE_FEMALE_HUMAN CHFW                 
+0x6211 MAGE_FEMALE_ELF CEFW                 
+0x6212 MAGE_FEMALE_DWARF CDFW                 
+0x6214 MAGE_FEMALE_GNOME CDFW                 
+0x6215 MAGE_FEMALE_HALFORC CHFW                 
+0x6300 THIEF_MALE_HUMAN CHMT                 
+0x6301 THIEF_MALE_ELF CEMT                 
+0x6302 THIEF_MALE_DWARF CDMT                 
+0x6303 THIEF_MALE_HALFLING CIMT                 
+0x6304 THIEF_MALE_GNOME CDMT                 
+0x6305 THIEF_MALE_HALFORC CHMT                 
+0x6310 THIEF_FEMALE_HUMAN CHFT                 
+0x6311 THIEF_FEMALE_ELF CEFT                 
+0x6312 THIEF_FEMALE_DWARF CDFT                 
+0x6313 THIEF_FEMALE_HALFLING CIFT                 
+0x6314 THIEF_FEMALE_GNOME CDFT                 
+0x6315 THIEF_FEMALE_HALFORC CHFT                 
+0x6400 DRIZZT UDRZ                 
+0x6401 ELMINSTER UELM                 
+0x6402 MONK CMNK                 
+0x6403 SKELETON MSKL                 
+0x6404 SAREVOK USAR                 
+0x6405 DOOM_GUARD MDGU                 
+0x6406 DOOM_GUARD_LARGER MDGU                 
+0x6500 MONK_MALE_HUMAN CHMM                 
+0x6510 MONK_FEMALE_HUMAN CHFM                 
+0x7000 HALF_OGRE MOGH                 
+0x7001 OGRILLON MOGN                 
+0x7100 BASILISK MBAS                 
+0x7101 BASILISK_GREATER MBAS                 
+0x7200 BEAR_BLACK MBER                 
+0x7201 BEAR_BROWN MBER                 
+0x7202 BEAR_CAVE MBER                 
+0x7203 BEAR_POLAR MBER                 
+0x7300 ELEMENTAL_EARTH MEAE                 
+0x7301 ELEMENTAL_EARTH_SMALL MEAS                 
+0x7302 SHAMBLING_MOUND MEAE                 
+0x7310 ELEMENTAL_FIRE MFIE                 
+0x7311 ELEMENTAL_FIRE_SMALL MFIS                 
+0x7312 ELEMENTAL_FIRE_PURPLE MFIE                 
+0x7313 ELEMENTAL_FIRE_SMALL_PURPLE MFIS                 
+0x7314 BURNING_MAN MFIE                 
+0x7320 ELEMENTAL_AIR MAIR                 
+0x7321 ELEMENTAL_AIR_SMALL MAIS                 
+0x7400 DOG_WILD MDOG                 
+0x7401 DOG_WAR MDOG                 
+0x7402 DOG_MOON MDOG                 
+0x7500 DOPPLEGANGER MDOP                 
+0x7501 DOPPLEGANGER_GREATER MDOP                 
+0x7600 ETTERCAP METT                 
+0x7700 GHOUL MGHL                 
+0x7701 REVEANT MGHL                 
+0x7702 GHAST MGHL                 
+0x7703 SHADOW MSHD                 
+0x7800 GIBBERLING MGIB                 
+0x7900 SLIME_GREEN MSLI                 
+0x7901 SLIME_OLIVE MSLI                 
+0x7902 SLIME_MUSTARD MSLI                 
+0x7903 SLIME_OCHRE MSLI                 
+0x7904 GRAY_OOZE MSLI                 
+0x7A00 SPIDER_GIANT MSPI                 
+0x7A01 SPIDER_HUGE MSPI                 
+0x7A02 SPIDER_PHASE MSPI                 
+0x7A03 SPIDER_SWORD MSPI                 
+0x7A04 SPIDER_WRAITH MSPI                 
+0x7B00 WOLF MWLF                 
+0x7B01 WOLF_WORG MWLF                 
+0x7B02 WOLF_DIRE MWLF                 
+0x7B03 WOLF_WINTER MWLF                 
+0x7B04 WOLF_VAMPIRE MWLF                 
+0x7B05 WOLF_DREAD MWLF                 
+0x7B06 WOLF_SHADOW MWLS                 
+0x7C00 KOBOLD_XVART MXVT                 
+0x7C01 KOBOLD_TASLOI MTAS                 
+0x7D00 ZOMBIE MZOM                 
+0x7E00 WEREWOLF MWER                 
+0x7E01 WEREWOLF_GREATER MGWE                 
+0x7F00 TROLL MGNL                 
+0x7F01 MINDFLAYER MMIN                 
+0x7F02 BEHOLDER MBEH                 
+0x7F03 IMP MIMP                 
+0x7F04 GOLEM_IRON MIGO                 
+0x7F05 DJINNI MDJI                 
+0x7F06 DJINNI_LEGS MDJL                 
+0x7F07 GOLEM_CLAY MGLC                 
+0x7F08 OTYUGH MOTY                 
+0x7F09 SAHAUGIN MSAH                 
+0x7F0A GREATCAT_PANTHER MGCP                 
+0x7F0B GREATCAT_LEOPARD MGCL                 
+0x7F0C KUO-TOA MKUO crash fix               
+0x7F0D LICH MLIC                 
+0x7F0E DEMILICH MDLIG                 
+0x7F0F TROLL_SMALL MTSR                 
+0x7F10 RAKSHASA MRAK                 
+0x7F11 UMBER_HULK MUMB                 
+0x7F12 VAMPIRE MVAM                 
+0x7F13 SNAKE MSNK                 
+0x7F14 GITHYANKI MGIT                 
+0x7F15 BEHOLDER_SMALL MBES                 
+0x7F16 MOOSE AMOO                 
+0x7F17 RABBIT ARAB                 
+0x7F18 DEER ADER                 
+0x7F19 DANCING_SWORD MDSW                 
+0x7F20 GROUNDHOG AGRO                 
+0x7F21 PHEASANT APHE                 
+0x7F22 VAMPIRE_FEMALE MVAF                 
+0x7F23 SAHAUGIN_LARGE MSAT                 
+0x7F24 PIRATE NPIR                 
+0x7F27 DROW MDRO                 
+0x7F28 KUO-TOA_LARGE MKUL crash fix               
+0x7F29 DROW_FEMALE MFDR                 
+0x7F2A SAILOR_MAN NSAI                 
+0x7F2B MDK2_MAX MMAX crash fix               
+0x7F2C AMISH_SOLDIER NSOL                 
+0x7F2D WYVERN_FAMILIAR MWFM                 
+0x7F2E RAVER MRAV                 
+0x7F2F SPIDER_SMALL MSPS                 
+0x7F30 BODHI NBOH                 
+0x7F31 ELLESIME NELL                 
+0x7F32 SLAYER MSLY                 
+0x7F33 MDK2_KURT MKUR crash fix empty              
+0x7F34 MDK2_DOCTOR MDOC crash fix empty              
+0x7F35 MIST_CREATURE MMIS                 
+0x7F36 SHADOW_THIEF NSHD                 
+0x7F37 JON_IRENICUS NIRE                 
+0x7F38 WIZARD_EYE MEYE                 
+0x7F39 BLOB_MIST_CREATURE MMST                 
+0x7F3A HULA_WIZARD NIRO                 
+0x7F3B SOLAR MSOL                 
+0x7F3C ANTISOLAR MASL                 
+0x7F3D MELISSAN MMEL add                
+0x7F3E FIRE_GIANT MFIG                 
+0x7F3F FIRE_GIANT_YAGA MFIG                 
+0x8000 GNOLL MGNL                 
+0x8100 HOBGOBLIN MHOB                 
+0x8200 KOBOLD MKOB                 
+0x9000 OGRE MOGR                 
+0xA000 WYVERN MWYV                 
+0xA100 CARRION_CRAWLER MCAR                 
+0xB000 COW ACOW                 
+0xB100 HORSE AHRS                 
+0xB200 STATIC_BEGGAR_MAN NBEGL                 
+0xB210 STATIC_HARLOT_WOMAN NPROL                 
+0xB300 STATIC_BOY NBOYL                 
+0xB310 STATIC_GIRL NGRLL                 
+0xB400 STATIC_FAT_MAN NFAML                 
+0xB410 STATIC_FAT_WOMAN NFAWL                 
+0xB500 STATIC_PEASANT_MAN NSIML                 
+0xB510 STATIC_PEASANT_WOMAN NSIWL                 
+0xB600 STATIC_NOBLE_MAN NNOML                 
+0xB610 STATIC_NOBLE_WOMAN NNOWL                 
+0xB700 STATIC_SLAVE NSLVL                 
+0xC000 BAT_INSIDE ABAT                 
+0xC100 CAT ACAT                 
+0xC200 CHICKEN ACHK                 
+0xC300 RAT ARAT                 
+0xC400 SQUIRREL ASQU                 
+0xC500 BAT_OUTSIDE ABAT                 
+0xC600 BEGGAR_MAN NBEGH                 
+0xC610 HARLOT_WOMAN NPROH                 
+0xC700 BOY NBOYH                 
+0xC710 GIRL NGRLH                 
+0xC800 FAT_MAN NFAMH                 
+0xC810 FAT_WOMAN NFAWH                 
+0xC900 PEASANT_MAN NSIMH                 
+0xC910 PEASANT_WOMAN NSIWH                 
+0xCA00 NOBLE_MAN NNOMH                 
+0xCA10 NOBLE_WOMAN NNOWH                 
+0xCB00 SLAVE NSLVH                 
+0xD000 EAGLE AEAG                 
+0xD100 SEAGULL AGUL                 
+0xD200 VULTURE AVUL                 
+0xD300 BIRD ABIR                 
+0xD400 BIRD_INSIDE ABIR                 
+0xE000 IC_CYCLOPS MCYC                 
+0xE010 IC_ETTIN METN  fix               
+0xE020 IC_MARALITH MTAN crash                
+0xE040 IC_MUMMI_HISTACHII MHIS                 
+0xE050 IC_LICHBLACK MLER                 
+0xE070 IC_MINOTAUR MMIN                 
+0xE080 IC_MUMMY MMUM  fix               
+0xE090 MARILITH MTAN crash                
+0xE0A0 IC_TROLL_ICE MTIC                 
+0xE0B0 IC_TROLL1 MTRO                 
+0xE0C0 IC_TROLL_SNOW MTSN                 
+0xE0E0 IC_CORNUGONSKI MCOR                 
+0xE0F0 IC_ICE_GOLEM MGIC  fix               
+0xE0F1 GLABREZU MGLA crash                
+0xE0F2 IC_WAILING_VIRGIN MWAV                 
+0xE200 IC_BETTLE MBET                 
+0xE210 IC_BEETLE_FIRE MBFI                 
+0xE220 IC_BEETLE_BOMBABIER MBBM                 
+0xE230 IC_BEETLE_RHINOCEROUS MBRH                 
+0xE300 IC_GHOST MGHO                 
+0xE310 IC_GHOUL MGH2                 
+0xE320 IC_GHOUL_2 MGH3                 
+0xE400 IC_GOBLIN_AXE MGO1                 
+0xE410 IC_GOBLIN_BOW MGO2                 
+0xE420 IC_GOBLINELITE_AXE MGO3                 
+0xE430 IC_GOBLINELITE_BOW MGO4                 
+0xE500 IC_LIZARDCASTER1 MLIZ                 
+0xE510 IC_LIZARD_MAN_1H MLI2 fix fix               
+0xE520 IC_LIZARDCASTER3 MLI3 crash fix               
+0xE600 IC_MYCONID MMYC                 
+0xE610 IC_MYCONID2 MMY2                 
+0xE700 IC_OROG1 MNO1          IDS_ENTRY 2DA_TABLE WAVS "Name (2da table)" "name wavs"   
+0xE710 IC_OROG2 MNO2                 
+0xE720 IC_OROG3 MNO3                 
+0xE800 IC_ORC_MELEE1 MOR1                 
+0xE810 IC_ORC_RANGE2 MOR2                 
+0xE820 IC_ORC_MELEE3 MOR3     0xEA00 IC_SHROOM MSHR   yes yes no MSHR shrie   
+0xE830 IC_ORC_RANGE4 MOR4     0x7F3F FIRE_GIANT_YAGA MFIG   no yes no MFIG gfire   
+0xE840 IC_ORC_SHAMAN MOR5     0x7312 ELEMENTAL_FIRE_PURPLE MFIE   no yes yes MFIE fire   
+0xE900 IC_SALAMANDER MSAL     0x7313 ELEMENTAL_FIRE_SMALL_PURPLE MFIS   no yes yes MFIS fire   
+0xE910 IC_SALAMANDER2 MSA2     0x7F3D MELISSAN MMEL   no yes no MMEL melis   
+0xEA00 IC_SHROOM MSHR     0xE090 MARILITH MTAN crash fix yes yes yes MTAN tan   
+0xEA10 IC_SHADOW MSH1    "LORD_TYRANIUS ﾖ obserwator" 0x7F2B MDK2_MAX MMAX crash fix yes no yes "create new table from MBEH ﾖ name table as MMAX" bhold   
+0xEA20 IC_SHADOW_BUFF MSH2                 
+0xEB00 IC_SKELETON0 MSKT                 
+0xEB10 IC_SKELETONA MSKA     0x1200 DRAGON_RED MDR crash fix yes yes yes MDR1 red   
+0xEB20 IC_SKELETONB MSKB  fix   0x1201 DRAGON_BLACK MDR crash fix yes yes yes MDR2 black   
+0xEC00 IC_WIGHT MWIG crash fix   0x1202 DRAGON_SILVER MDR crash fix yes yes yes MDR3 silv   
+0xEC10 IC_WIGHT2 MWI2 crash fix   0x1203 DRAGON_GREEN MDR   no yes yes MDR4 red   
+0xEC20 IC_WIGHT3 MWI3 crash    0x1204 DRAGON_AQUA MDR   no yes yes MDR5 black   
+0xED00 IC_YUANTI MYU1     0x1205 DRAGON_BLUE MDR   no yes yes MDR6 silv   
+0xED10 IC_YUANTI2 MYU2     0x1206 DRAGON_BROWN MDR   no yes yes MDR4 red   
+0xED20 IC_YUANTI3 MYU3     0x1207 DRAGON_MULTICOLOR MDR   no yes yes MDR5 black   
+0xEE00 IC_ZOMBIE MZO2     0x1208 DRAGON_PURPLE MDR   no yes yes MDR6 silv   
+0xEE10 IC_ZOMBIE_2 MZO3     0x1300 DEMIGORGON MDEM   no yes no MDEM demo   
+0xEF00 IC_WATER_WEIRD MWWE crash    0x7F0C KUO-TOA MKUO crash fix yes yes yes MKUO kuoto   
+       0x7F28 KUO-TOA_LARGE MKUL crash fix yes yes yes MKUO kuoto   
+       0xE0F1 GLABREZU MGLA crash fix yes yes no MGLA glabr   
+ BG      0xE000 IC_CYCLOPS MCYC   no no no MCYC cyclo   
+ CLERIC_MALE_HUMAN_LOW CHMC     0xE040 IC_MUMMI_HISTACHII MHIS   no no no MHIS hista   
+ CLERIC_MALE_ELF_LOW CEMC     0xE0A0 IC_TROLL_ICE MTIC   no no no MTIC icetr   
+ CLERIC_MALE_DWARF_LOW CDMC     0xE0C0 IC_TROLL_SNOW MTSN   no no no MTSN snwtr   
+ CLERIC_MALE_HALFLING_LOW CIMC     0xE0E0 IC_CORNUGONSKI MCOR   no yes no MCOR cornu   
+ CLERIC_FEMALE_HUMAN_LOW CHFC     0xE0F0 IC_ICE_GOLEM MGIC   no yes no MGIC icegol   
+ CLERIC_FEMALE_ELF_LOW CEFC     0xE0F2 IC_WAILING_VIRGIN MWAV   no yes no MWAV virgin   
+ CLERIC_FEMALE_DWARF_LOW CDFC     0xE200 IC_BETTLE MBET   no no no MBET beetle   
+ CLERIC_FEMALE_HALFLING_LOW CIFC     0xE210 IC_BEETLE_FIRE MBFI   no no no MBET beetle   
+ PALADYN_MALE_HUMAN_LOW CHMF     0xE220 IC_BEETLE_BOMBABIER MBBM   no no no MBBM bomba   
+ PALADYN_MALE_ELF_LOW CEMF     0xE230 IC_BEETLE_RHINOCEROUS MBRH   no no no MBRH rhino   
+ PALADYN_MALE_DWARF_LOW CDMF     0xE300 IC_GHOST MGHO   no no no MGHO ghost   
+ PALADYN_MALE_HALFLING_LOW CIMF     0xE310 IC_GHOUL MGH2   no yes yes MGHL ghoul   
+ PALADYN_FEMALE_HUMAN_LOW CHFF     0xE320 IC_GHOUL_2 MGH3   no yes yes MGHL ghoul   
+ PALADYN_FEMALE_ELF_LOW CEFF     0xE520 IC_LIZARDCASTER3 MLI3 crash fix no no "not everything" MLI3 lizon   
+ PALADYN_FEMALE_DWARF_LOW CDFF     0xE610 IC_MYCONID2 MMY2   yes yes yes MM2 mycon   
+ PALADYN_FEMALE_HALFLING_LOW CIFF     0xEA10 IC_SHADOW MSH1   no no no MSH1 shadw   
+       0xEA20 IC_SHADOW_BUFF MSH2   no no no MSH2 shadbg   
+       0xEC00 IC_WIGHT MWIG crash fix yes yes yes MWIG wight  skelton bone
+       0xEC10 IC_WIGHT2 MWI2 crash fix yes yes yes MWIG wight  lich? lerel
+ BG2      0xEC20 IC_WIGHT3 MWI3 crash fix yes yes yes MWIG wight  mustard_slime mustr
+ SPIRIT MSAI     0xEE00 IC_ZOMBIE MZO2   no yes yes MZO zombi  mummy mummy
+ SOLAR MASG     0xEE10 IC_ZOMBIE_2 MZO3   no yes yes MZO zombi  ochre_slime ochre
+       0xE010 IC_ETTIN METN  fix yes yes no METN ettin  ochre_slime olive
+                   
+0x6600 MAN DEMB                water_elemental watere
+                  water_weird weird
+                   
+ "Ice Wind Dale"           tigger "sound prefix"      
+0xEB08 ANIMATED_PLATE MANI                 
+0xEB18 ANIMATED_PLATE_2 MAN2      ANIMATED_PLATE MANI    ?      
+0xEB28 ANIMATED_PLATE_3 MAN3      ANIMATED_PLATE_2 MAN2    ?      
+0xEBF1 ARUNDEL MARU      ANIMATED_PLATE_3 MAN3    ?      
+0xF778 BARBARIAN_1 MBA1      ARUNDEL MARU    ?      
+0xF788 BARBARIAN_2 MBA2      BARBARIAN_1 MBA1   no barb      
+0xF798 BARBARIAN_3 MBA3      BARBARIAN_2 MBA2   no barb      
+0xE771 BARBARIAN_SHAMAN_1 MBA4      BARBARIAN_3 MBA3   no barb      
+0xE781 BARBARIAN_SHAMAN_2 MBA5      BARBARIAN_SHAMAN_1 MBA4   no sham/shamb      
+0xE791 BARBARIAN_SHAMAN_3 MBA6      BARBARIAN_SHAMAN_2 MBA5   no sham/shamb      
+0xE7AC BARBARIAN_ICASARACHT MBAI      BARBARIAN_SHAMAN_3 MBA6   no sham/shamb      
+0xE218 ELEMENTAL_EARTH MELE      BARBARIAN_ICASARACHT MBAI   no barb/NONE      
+0xE228 ELEMENTAL_FIRE MELF      ELEMENTAL_EARTH MELE   yes earth      
+0xE238 ELEMENTAL_WATER MELW      ELEMENTAL_FIRE MELF   yes fire      
+0xF308 GIANT_FIRE MGFI      ELEMENTAL_WATER MELW   no watere      
+0xE138 GIANT_FROST MGFR   FIRE_GIANT MFIG  GIANT_FIRE MGFI   yes gfire      
+0xE51D GOLEM_IRON MGIR      GIANT_FROST MGFR   no gfrst      
+0xE148 VERBEEG MGVE      GOLEM_IRON MGIR   no golem/iron      
+0xE249 HARPY MHAR      VERBEEG MGVE   no verbee      
+0xE050 REMORHAZ MREM      HARPY MHAR   no harpy      
+0xE7E8 TROLL_SCRAG MSCR      REMORHAZ MREM   no remor      
+0xEB51 SEER MSEE      TROLL_SCRAG MSCR   no scrag      
+0xEB39 BELHIFET MBE1      SEER MSEE   no seer      
+0xEB49 BELHIFET_PRIEST MBE2      BELHIFET MBE1   no belprs?      
+0xEA20 CREEPING_DOOM MCRD      BELHIFET_PRIEST MBE2   no belhif      
+0xE449 SVIRFNEBLIN MSVI      CREEPING_DOOM MCRD   no creep      
+0xE449 SVIRFNEBLIN_NO_AXE MSV2      SVIRFNEBLIN MSVI    ?      
+0xE7F9 UMBER_HULK_VODYANOI MUM2      SVIRFNEBLIN_NO_AXE MSV2    ?      
+0xEC0B DRAGON_WHITE MWDR      UMBER_HULK_VODYANOI MUM2   no vodya      
+0xE76C TUNDRA_YETI MYET      DRAGON_WHITE MWDR   no dragon      
+0xF029 WIGHT_BARROW MWI4      WIGHT_BARROW MWI4   no barrow      
+0xE3A8 DROWNED_DEAD MDRD drown     TUNDRA_YETI MYET   no yeti      
+        weird MWWE   no weird      
+        " Drowned Dead" MDRD   no drown      
+0x1001 WYVERN_BIG_WHITE MWY2                 
+        ABISHAI_WHITE MABW   no abish      
+        BOAR_ARCTIC MBOA          
+        BUGBEAR MBUG   no bugbr      
+        BUGBEAR_CAPTAIN MBU2   no bgcapt/capt      
+        CHIMERA MCHI   no chim      
+        DARKTREE MDTR   no tree      
+ "Ice Wind Dale 2"       DRIDER_FEMALE MDRF   no fdrid      
+0xE7B8 BOAR_ARCTIC MBOA      DRIDER_MALE MDRM   no mdrid  djwolf    
+0xE8E8 BUGBEAR_CAPTAIN MBU2      ELEMENTAL_WATER_SMALL MEW2   no watere  death    
+0xE8C8 BUGBEAR MBUG      FEYR MFEY   no feyr  firee X   
+0xEC33 CHIMERA MCHI      FEYR_GREATER MFE2   no fomor      
+0xEC4B HALFDRAGON_BLACK MDH1      GIANT_FOMORIAN MGFO          
+0xEC5B HALFDRAGON_RED MDH2      GOBLIN_CAPTAIN MGO5          
+0xE278 DARKTREE MDTR      GOBLIN_SHAMAN MGOC          
+0xE298 ELEMENTAL_WATER_SMALL MEW2      GOBLIN_WORG MGWO   no gobwg/worgg      
+0xE289 FEYR_GREATER MFE2      GOBLIN_WORG_CAPTAIN MGW2          
+0xE269 FEYR MFEY      HALFDRAGON_BLACK MDH1   no hdrag      
+0xE15A GIANT_FOMORIAN MGFO      HALFDRAGON_RED MDH2   no hdrag      
+0xE498 GOBLIN_CAPTAIN MGO5      HOOK_HORROR MHOH   no hook      
+0xE479 GOBLIN_SHAMAN MGOC      ISAIR MISA   no isair      
+0xE468 GOBLIN_WORG MGWO      LEMURE MLEM   no lemu      
+0xE488 GOBLIN_WORG_CAPTAIN MGW2      MADAE MMAD   no madea      
+0xE068 HOOK_HORROR MHOH      MALARITE MMAL   no mala      
+0xEF0D ISAIR MISA      ORC_SHAMAN_UNDEAD MOR7   no orcsh/udroc      
+0xED28 LEMURE MLEM      ORC_W_AXE_UNDEAD MOR6   no orcax/udorc      
+0xEF1D MADAE MMAD      OROG_SHAMAN MNOS          
+0xE7D9 MALARITE MMAL      SHENRICAL MSHE   no sheri      
+0xE8D9 OROG_SHAMAN MNOS      unknown MWIL          
+0xE808 ORC_W_AXE_UNDEAD MOR6      WEREBADGER MWEB   no wbad      
+0xE8F9 ORC_SHAMAN_UNDEAD MOR7      WERERAT MWRA   no wrat      
+0xEC2B SHENRICAL MSHE      WORG MWOR   no worg      
+0xEE08 WEREBADGER MWEB      YUAN_TI_HALF MYUH          
+0xEE18 WERERAT MWRA                 
+ unknown MWIL                 
+0xEF28 WORG MWOR      KEG1 MKG1   no barrel      
+0xE8B9 YUAN_TI_HALF MYUH      KEG2 MKG2   no barrel      
+0xF51B DRIDER_FEMALE MDRF      KEG3 MKG3   no barrel      
+0xF50B DRIDER_MALE MDRM                 
+                   
+                   
+ "Unknown ﾖ invisibility?" MGEN                 
+0xEF50 KEG1 MKG1                 
+0xEF60 KEG2 MKG2                 
+0xEF70 KEG3 MKG3                 
+0xE7C9 ABISHAI_WHITE MABW                 
+                   
+                   
+                   
+                   
+                   
+ PST                  
+                   
+ ANNAH ANNB                 
+ GIANT_SKELETON_CONSTRUCT ARMB                 
+ BAURIAUR BAUB                 
+ TUSCAMPA CAMB                 
+ FHJULL FHJB                 
+ ABISHAI_GREEN GABB                 
+ ABISHAI_RED RABB                 
+ GRONK GRKB                 
+ GOLEM GSTB                 
+ SOHMIEN HRSB                 
+ TRICHA JBRB                 
+ NUPPERIBO NPRB                 
+ GRILLIG GRIB                 
+ SHADOW SM1B                 
+ GREATER_SHADOW SM2B                 
+ TRUE_SHADOW SM3B                 
+ THOKOLA THKB                 
+ TROCOPOTACA TRCB                 
+ TRELON TREB                 
+ TRIAS TRSB                 
+ NIGHT_HAG ACAB                 
+ GENRELETH GARB                 
+                   
+ ABISHAI_BLACK ABSB                 
+  ADVB                 
+  CGDB                 
+ grabarz COLB  AAFB  repaleted             
+ CORGUNOSKI CORB  CTFB  repaleted             
+  DABB  CTHB  repaleted             
+  DHLB  CTMB  repaleted             
+  EBBB  DKKB  "repaleted postać"             
+  FELB  DTFB  repaleted             
+  FFGB  DTMB  repaleted             
+  GDGB  GHFB  repaleted             
+  HARB  GHMB  repaleted             
+  IGYB  GODB  repaleted             
+  PUZB  GYTB  repaleted             
+  LKMB  HKMB  repaleted             
+  LOPB  HLFB  repaleted             
+  LTHB  HLMB  repaleted             
+  MDRB  HUFB  repaleted             
+  MKLB  HUMB  repaleted             
+  MRTB  MHTB  repaleted             
+  PHDB  MIDB  repaleted             
+  TGTB  NOAB  repaleted             
+  TRZB  NOCB  repaleted             
+  UHDB  NODB  repaleted             
+  VGYB  DTMB  repaleted             
+  WRMB  NOFB ok  "jeszcze nie"            
+  WURB  NOHB  repaleted             
+  CRNB  NOMB ok  "jeszcze nie"            
+  GLAB  NOSB ok  "jeszcze nie"            
+  JFTB  NOZB ok  "jeszcze nie"            
+  DEIB  PHDB ok dziadek             
+  LEMB  PROB  repaleted             
+    QUIB  repaleted             
+    SKWB  repaleted             
+    SPTB  repaleted             
+    TFFB  repaleted             
+    TFMB  repaleted NOD2            
+    TLRB  repaleted             
+    TWZB  repaleted             
+    VHAB  repaleted             
+    WIZB  repaleted             
+    WREB  repaleted             
+    ZMFB  repaleted             
+    ZMMB  repaleted             

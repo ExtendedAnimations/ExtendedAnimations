@@ -1,0 +1,39 @@
+MTSN/snow troll				SOUND
+ATTACK          		snwtr01 nosound
+ATTACK          		0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		snwtr07a snwtr07b snwtr08a snwtr08b snwtr08c snwtr08d
+DAMAGE          		0 0 0 0 0 0
+DIE             		snwtr09a snwtr09b
+DIE             		0 0
+HEAD_TURN       		snwtr11a snwtr11b snwtr11c snwtr11d
+HEAD_TURN       		0 0 0 0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		snwtr03a snwtr03b snwtr03c
+ATTACK_SLASH    		0 0 0
+ATTACK_BACKSLASH		snwtr04a snwtr04b snwtr04c
+ATTACK_BACKSLASH		0 0 0
+ATTACK_JAB      		***
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry				snwtr02
+Battle_Cry				0 0 0
+Selection               snwtr01
+Selection               0

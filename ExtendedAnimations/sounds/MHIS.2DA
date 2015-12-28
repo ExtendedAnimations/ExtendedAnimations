@@ -1,0 +1,39 @@
+MHIS/histachi				SOUND
+ATTACK          		hista03a nosound nosound
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		hista07a hista07b hista08a
+DAMAGE          		0 0 0
+DIE             		hista09a
+DIE             		0 0
+HEAD_TURN       		hista11
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		hista03a hista03b
+ATTACK_SLASH    		0 0
+ATTACK_BACKSLASH		hista04a hista04b
+ATTACK_BACKSLASH		0 0
+ATTACK_JAB      		hista05a
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry				hista02
+Battle_Cry				0
+Selection               hista01
+Selection               0

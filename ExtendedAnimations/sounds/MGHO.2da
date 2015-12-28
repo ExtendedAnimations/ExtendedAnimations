@@ -1,0 +1,39 @@
+MGHO/ghost				SOUND
+ATTACK          		ghost01 nosound
+ATTACK          		0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		ghost07a ghost07b ghost08a ghost08b
+DAMAGE          		0 0 0 0
+DIE             		ghost09a ghost09b ghost09c ghost09d ghost09e ghost10a ghost10b ghost10c ghost10d
+DIE             		0 0 0 0 0 0 0 0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		ghost03a ghost03b 
+ATTACK_SLASH    		0 0
+ATTACK_BACKSLASH		ghost04a ghost04b
+ATTACK_BACKSLASH		0 0
+ATTACK_JAB      		***
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry				ghost02
+Battle_Cry				0
+Selection               ghost01
+Selection               0
